@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{('public/js/login.js')}}">
 </head>
 <body>
     <div class="flex justify-between px-10 py-1 text-white bg-dark-opaco">
@@ -53,15 +54,43 @@
             </div>
             <div class="flex px-10 text-white  justify-between text-xs font-bold">
                 <div class="px-5 w-1/3 ">
-                    <a href="">
+                    <button id="btnMostrarLogin">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                             <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                             <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
                         </svg>
-                    </a>
-                    <label for="">Ingresar</label>
+                        <label for="">Ingresar</label>
+                    </button>
+                </div>
+                <div id="login" class="hidden bg-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <form action="">
+                        <div>Inicar Sesion</div>
+                        <div>
+                            <label for="correo">Correo</label>
+                            <input type="email">
+                        </div>
+                        <div>
+                            <label for="contrasena">Correo</label>
+                            <input type="contrasena">
+                        </div>
+                        <div>
+                            <a href="">Olvide mi contraseña</a>
+                        </div>
+                        <div>
+                            <button type="submit">Ingresar</button>
+                        </div>
+                        <div>O inica sesion con</div>
+                        <div>
+                            <button>
+                                <img src="/resources/img/google.png" alt="logo google">
+                            </button>
+                            <button>
+                                <img src="/resources/img/facebook.png" alt=" logo facebook">
+                            </button>
+                        </div>
+                    </form>
                 </div>
                 <div class="px-5 w-1/3">
                     <a href="">
