@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="{{('public/js/login.js')}}">
+    <script src="/js/login.js"></script>
 </head>
 <body>
     <div class="flex justify-between px-10 py-1 text-white bg-dark-opaco">
@@ -64,34 +64,7 @@
                         <label for="">Ingresar</label>
                     </button>
                 </div>
-                <div id="login" class="hidden bg-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <form action="">
-                        <div>Inicar Sesion</div>
-                        <div>
-                            <label for="correo">Correo</label>
-                            <input type="email">
-                        </div>
-                        <div>
-                            <label for="contrasena">Correo</label>
-                            <input type="contrasena">
-                        </div>
-                        <div>
-                            <a href="">Olvide mi contraseña</a>
-                        </div>
-                        <div>
-                            <button type="submit">Ingresar</button>
-                        </div>
-                        <div>O inica sesion con</div>
-                        <div>
-                            <button>
-                                <img src="/resources/img/google.png" alt="logo google">
-                            </button>
-                            <button>
-                                <img src="/resources/img/facebook.png" alt=" logo facebook">
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                
                 <div class="px-5 w-1/3">
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -125,6 +98,41 @@
 
     <div>
 
+    </div>
+    <div id="login" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-400 p-6 rounded-md shadow-md">
+        <form  class="">
+            <div class="flex flex-col items-end h-6 font-bold text-right">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                </svg>
+            </div>
+            <div class="text-gray-800 text-lg mb-4">Iniciar Sesión</div>
+            <div class="mb-4">
+                <label for="correo" class="block text-sm text-gray-800 mb-1">Correo</label>
+                <input type="email" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            <div class="mb-4">
+                <label for="contrasena" class="block text-sm text-gray-800 mb-1">Contraseña</label>
+                <input type="password" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            <div class="mb-4">
+                <a href="#" class="text-blue-600">¿Olvidaste tu contraseña?</a>
+            </div>
+            <div class="mb-4">
+                <button type="submit" class="bg-blue-600 text-white rounded-md py-2 px-4">Ingresar</button>
+            </div>
+            <div class="text-gray-800 mb-2">O inicia sesión con</div>
+            <div class="flex">
+                <button>
+                    <img class="h-10" src="/img/google.png" alt="logo google">
+                </button>
+                <button>
+                    <img class="h-10" src="/img/facebook.png" alt="logo facebook">
+                </button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
