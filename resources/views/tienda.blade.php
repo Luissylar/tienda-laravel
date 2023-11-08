@@ -122,31 +122,49 @@
             <div class="relative">
                 <div class="slider">
                     <div class="slide">
-                        <img src="/img/slider-calzado-regular-0708-desktop.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-calzado-regular-0708-desktop.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-cel-1910-desktop.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-cel-1910-desktop.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-moda-malabar-desktop.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-moda-malabar-desktop.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-deco-2309-desktop-f.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-deco-2309-desktop-f.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-laptops-1910-desktop-h.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-laptops-1910-desktop-h.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-lineablanca-0410-desktop-g.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-lineablanca-0410-desktop-g.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-mktplace-0410-desktop-h.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-mktplace-0410-desktop-h.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-tv-0410-desktop-b.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-tv-0410-desktop-b.webp" alt="">
+                        </a>
                     </div>
                     <div class="slide">
-                        <img src="/img/slider-regular-tv-0410-desktop-c.webp" alt="">
+                        <a href="">
+                            <img src="/img/slider-regular-tv-0410-desktop-c.webp" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -195,7 +213,40 @@
                 <a href="#" class="">¿No tienes una cuenta?</a>
             </div>
             <div class="mb-4 w-full">
-                <button type="submit" class="w-full bg-white text-red-600 border border-red-600 rounded-md py-2 px-4">Registrate</button>
+                <button type="button" id="registrate-button" class="w-full bg-white text-red-600 border border-red-600 rounded-md py-2 px-4">Registrate</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="login-register" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-md shadow-md w-1/4">
+        <form  class=" flex flex-col items-center">
+            <div class="flex flex-col w-full h-6 font-bold items-end">
+                <svg xmlns="http://www.w3.org/2000/svg" id="cerrar-login-register" class="cursor-pointer icon icon-tabler icon-tabler-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                </svg>
+            </div>
+            <div class="text-gray-800 text-lg mb-4">Crea tu cuenta</div>
+            <div class="mb-4 w-full">
+                <label for="correo" class="block text-sm text-gray-800 mb-1">Correo</label>
+                <input type="email" name="correo" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            <div class="mb-4 w-full">
+                <label for="contrasena" class="block text-sm text-gray-800 mb-1">Contraseña</label>
+                <input name="contrasena" type="password" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            <div class="mb-4 w-full">
+                <label for="nombres" class="block text-sm text-gray-800 mb-1">Nombres</label>
+                <input name="contrasena" type="text" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            <div class="mb-4 w-full">
+                <label for="apellidos" class="block text-sm text-gray-800 mb-1">Apellidos</label>
+                <input name="contrasena" type="text" class="w-full border border-gray-300 rounded-md py-1 px-3">
+            </div>
+            
+            <div class="mb-4 w-full">
+                <button type="submit" id="registrate-button" class="w-full bg-red-600 text-white border border-red-600 rounded-md py-2 px-4">Confirmar</button>
             </div>
         </form>
     </div>
