@@ -6,6 +6,8 @@
     <title>Tienda</title>
     @vite('resources/css/app.css')
     <script src="/js/login.js"></script>
+    <script src="/js/slider-principal.js"></script>
+
 </head>
 <body>
     <div class="flex justify-between px-10 py-1 text-white bg-dark-opaco">
@@ -24,7 +26,7 @@
         </div>
     </div>
     <div class="flex flex-col items-center bg-red-500 py-2">
-        <div class="flex w-2/3 justify-between items-center">
+        <div class="flex w-10/12 justify-between items-center">
             <div class="flex px-10">
                 <div class="px-5 flex items-center">
                     <a href="">
@@ -54,7 +56,7 @@
             </div>
             <div class="flex px-10 text-white  justify-between text-xs font-bold">
                 <div class="px-5 w-1/3 ">
-                    <button id="btnMostrarLogin">
+                    <button id="btnMostrarLogin" class="cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
@@ -75,8 +77,8 @@
                             <path d="M19 21l0 -10.15" />
                             <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
                         </svg>
+                        <label for="">Tiendas</label>
                     </a>
-                    <label for="">Tiendas</label>
                 </div>
                 <div class="px-5 w-1/3 flex flex-col items-center">
                     <b class="fixed bg-white rounded-full flex text-black p-1">01</b>
@@ -96,41 +98,104 @@
         </div>
     </div>
 
+    
     <div>
-
+        <div class="flex flex-col items-center">
+            <div class="flex justify-between items-center absolute inset-x-0 top-1/2 transform -translate-y-1/2 px-5 z-10">
+                <button class="prevButton bg-red-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-arrow-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 8l-4 4l4 4" />
+                        <path d="M16 12h-8" />
+                        <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                    </svg>
+                </button>
+                <button class="nextButton bg-red-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-arrow-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 16l4 -4l-4 -4" />
+                        <path d="M8 12h8" />
+                        <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                      </svg>
+                </button>
+            </div>
+            <div class="relative">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="/img/slider-calzado-regular-0708-desktop.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-cel-1910-desktop.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-moda-malabar-desktop.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-deco-2309-desktop-f.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-laptops-1910-desktop-h.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-lineablanca-0410-desktop-g.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-mktplace-0410-desktop-h.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-tv-0410-desktop-b.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slider-regular-tv-0410-desktop-c.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="login" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-400 p-6 rounded-md shadow-md">
-        <form  class="">
-            <div class="flex flex-col items-end h-6 font-bold text-right">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+
+
+
+
+
+    <div id="login" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-md shadow-md w-1/4">
+        <form  class=" flex flex-col items-center">
+            <div class="flex flex-col w-full h-6 font-bold items-end">
+                <svg xmlns="http://www.w3.org/2000/svg" id="cerrar-login" class="cursor-pointer icon icon-tabler icon-tabler-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M18 6l-12 12" />
                     <path d="M6 6l12 12" />
                 </svg>
             </div>
             <div class="text-gray-800 text-lg mb-4">Iniciar Sesión</div>
-            <div class="mb-4">
+            <div class="mb-4 w-full">
                 <label for="correo" class="block text-sm text-gray-800 mb-1">Correo</label>
-                <input type="email" class="w-full border border-gray-300 rounded-md py-1 px-3">
+                <input type="email" name="correo" class="w-full border border-gray-300 rounded-md py-1 px-3">
             </div>
-            <div class="mb-4">
+            <div class="mb-4 w-full">
                 <label for="contrasena" class="block text-sm text-gray-800 mb-1">Contraseña</label>
-                <input type="password" class="w-full border border-gray-300 rounded-md py-1 px-3">
+                <input name="contrasena" type="password" class="w-full border border-gray-300 rounded-md py-1 px-3">
             </div>
             <div class="mb-4">
                 <a href="#" class="text-blue-600">¿Olvidaste tu contraseña?</a>
             </div>
-            <div class="mb-4">
-                <button type="submit" class="bg-blue-600 text-white rounded-md py-2 px-4">Ingresar</button>
+            <div class="mb-4 w-full">
+                <button type="submit" class="w-full bg-blue-600 text-white rounded-md py-2 px-4">Ingresar</button>
             </div>
-            <div class="text-gray-800 mb-2">O inicia sesión con</div>
-            <div class="flex">
+            <div class="">O inicia sesión con</div>
+            <div class="flex w-full justify-around py-5">
                 <button>
                     <img class="h-10" src="/img/google.png" alt="logo google">
                 </button>
                 <button>
                     <img class="h-10" src="/img/facebook.png" alt="logo facebook">
                 </button>
+            </div>
+            <div class="mb-4">
+                <a href="#" class="">¿No tienes una cuenta?</a>
+            </div>
+            <div class="mb-4 w-full">
+                <button type="submit" class="w-full bg-white text-red-600 border border-red-600 rounded-md py-2 px-4">Registrate</button>
             </div>
         </form>
     </div>

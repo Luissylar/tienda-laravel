@@ -8,6 +8,15 @@ function mostrarLogin() {
 document.addEventListener('DOMContentLoaded', function() {
     // Asigna la función al evento click del botón
     document.getElementById('btnMostrarLogin').addEventListener('click', mostrarLogin);
+
+    var cerrar_login = document.getElementById('cerrar-login');
+    var loginDiv = document.getElementById('login');
+
+    cerrar_login.addEventListener('click', function() {
+        loginDiv.classList.add('hidden');
+    });
+
+
 });
 
 
