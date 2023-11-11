@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 
 
@@ -20,8 +20,10 @@ Route::get('/', function () {
     return view('tienda');
 });
 
-Route::post('/registro', [RegisterController::class, 'registro']);
+Route::post('/registro', [LoginController::class, 'registro']);
 Route::post('/login', [LoginController::class, 'login']);
+
+Route::get('/admin', [AdminController::class, 'index']);
 
 
 
