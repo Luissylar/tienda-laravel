@@ -171,6 +171,107 @@
             </div>
         </div>
     </div>
+   <div class="flex space-x-4 flex items-center justify-center " >
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+            1
+        </button>
+        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg
+        -red-600">
+            1
+        </button>
+    </div>
+
+    
+
+    <div id="cinta-servicios"  class="flex justify-around py-20">
+        <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+                <img src="/img/icon1.webp" alt="">
+
+            </div>
+            <div class="w-2/3 text-center py-10">
+                <p>¿no te quedo?</p>
+                
+                <p class="font-bold">devuelvelo desde casa</p>
+                
+                <p>descubre como hacerlo</p>
+            </div>
+        </div>
+        <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+                <img src="/img/icon2.webp" alt="">
+
+            </div>
+            <div class="w-2/3 text-center py-10">
+                <p  class="font-bold">compra y retira</p>
+                
+                <p>en mas de 400 puntos de retiro</p>
+                
+                <p>mira cuales son</p>
+            </div>
+        </div>
+
+        <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+                <img src="/img/icon3.webp" alt="">
+
+            </div>
+            <div class="w-2/3 text-center py-10">
+                <p>¡pide tu tarjeta oh!</p>
+                
+                <p class="font-bold">100% digital y disfruta de miles de descuentos exclucivos</p>
+                
+                <p>solicitalo aqui</p>
+            </div>
+        </div>
+        <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center ">
+                <img src="/img/icon4.webp" alt="">
+
+            </div>
+            <div class="w-2/3 text-center py-10">
+                <p>compra</p>
+                
+                <p class="font-bold">y recibe tu pedido hoy mismo</p>
+                
+                <p>ver productos</p>
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
