@@ -163,7 +163,7 @@
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 1]) }}">
                             <img src="/img/slider-regular-tv-0410-desktop-c.webp" alt="">
                         </a>
                     </div>
@@ -202,7 +202,7 @@
         </button>
     </div>
 
-    
+
 
     <div id="cinta-servicios"  class="flex justify-around py-20">
         <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
@@ -212,9 +212,9 @@
             </div>
             <div class="w-2/3 text-center py-10">
                 <p>¿no te quedo?</p>
-                
+
                 <p class="font-bold">devuelvelo desde casa</p>
-                
+
                 <p>descubre como hacerlo</p>
             </div>
         </div>
@@ -225,9 +225,9 @@
             </div>
             <div class="w-2/3 text-center py-10">
                 <p  class="font-bold">compra y retira</p>
-                
+
                 <p>en mas de 400 puntos de retiro</p>
-                
+
                 <p>mira cuales son</p>
             </div>
         </div>
@@ -239,9 +239,9 @@
             </div>
             <div class="w-2/3 text-center py-10">
                 <p>¡pide tu tarjeta oh!</p>
-                
+
                 <p class="font-bold">100% digital y disfruta de miles de descuentos exclucivos</p>
-                
+
                 <p>solicitalo aqui</p>
             </div>
         </div>
@@ -252,13 +252,13 @@
             </div>
             <div class="w-2/3 text-center py-10">
                 <p>compra</p>
-                
+
                 <p class="font-bold">y recibe tu pedido hoy mismo</p>
-                
+
                 <p>ver productos</p>
             </div>
         </div>
-    
+
     </div>
 
 
