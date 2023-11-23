@@ -6,7 +6,6 @@
     <title>Tienda</title>
     @vite('resources/css/app.css')
     <script src="/js/tienda.js"></script>
-
 </head>
 <body>
     <div class="flex justify-between px-10 py-1 text-white bg-dark-opaco">
@@ -123,42 +122,42 @@
             <div class="relative">
                 <div class="slider">
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 2]) }}">
                             <img src="/img/slider-calzado-regular-0708-desktop.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 3]) }}">
                             <img src="/img/slider-regular-cel-1910-desktop.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 4]) }}">
                             <img src="/img/slider-moda-malabar-desktop.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 5]) }}">
                             <img src="/img/slider-regular-deco-2309-desktop-f.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 6]) }}">
                             <img src="/img/slider-regular-laptops-1910-desktop-h.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 7]) }}">
                             <img src="/img/slider-regular-lineablanca-0410-desktop-g.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 8]) }}">
                             <img src="/img/slider-regular-mktplace-0410-desktop-h.webp" alt="">
                         </a>
                     </div>
                     <div class="slide">
-                        <a href="">
+                        <a href="{{ route('productos', ['categoria' => 9]) }}">
                             <img src="/img/slider-regular-tv-0410-desktop-b.webp" alt="">
                         </a>
                     </div>
@@ -171,7 +170,7 @@
             </div>
         </div>
     </div>
-   <div class="flex space-x-4 flex items-center justify-center " >
+   <div class="flex space-x-4 items-center justify-center " >
         <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
@@ -260,19 +259,6 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <div id="login" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-md shadow-md w-1/4">
