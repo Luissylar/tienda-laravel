@@ -170,32 +170,32 @@
             </div>
         </div>
     </div>
-   <div class="flex space-x-4 items-center justify-center " >
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+   <div class="flex space-x-4 items-center justify-center mt-3" >
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg-red-600">
             1
         </button>
-        <button type="button" class="w-4 h-4 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg
+        <button type="button" class="w-3 h-3 bg-gray-600 text-gray-600 rounded-full flex items-center justify-center focus:outline-none focus:ring focus:bg
         -red-600">
             1
         </button>
@@ -205,7 +205,7 @@
 
     <div id="cinta-servicios"  class="flex justify-around py-20">
         <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
-            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center rounded-bl-full ">
                 <img src="/img/icon1.webp" alt="">
 
             </div>
@@ -218,7 +218,7 @@
             </div>
         </div>
         <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
-            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center rounded-bl-full">
                 <img src="/img/icon2.webp" alt="">
 
             </div>
@@ -232,7 +232,7 @@
         </div>
 
         <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
-            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center">
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center rounded-bl-full">
                 <img src="/img/icon3.webp" alt="">
 
             </div>
@@ -245,7 +245,7 @@
             </div>
         </div>
         <div class="flex bg-red-200 w-1/6 rounded-full  justify-between " >
-            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center ">
+            <div class="overflow-hidden bg-red-500 w-1/3 flex items-center justify-center rounded-bl-full">
                 <img src="/img/icon4.webp" alt="">
 
             </div>
@@ -258,6 +258,132 @@
             </div>
         </div>
 
+    </div>
+    <div>
+        <div class="flex items-center justify-center">
+            <h1 class="text-3xl font-bold">Lo Mas Top</h1>
+            <img src="/img/lo_mas_top_icon.png" alt="Lomas top">
+            <h1 class="text-2xl ">Del Black Friday!</h1>
+        </div>
+    </div>
+
+    <div class="flex items-center justify-center">
+        <div class="w-5/6 py-3">
+            <div>
+                <a href="">
+                    <img src="/img/01-lo_top-bk-nov23k-desktop.webp" alt="">
+                </a>
+            </div>
+            <div>
+                <div class="flex mt-5">
+                    <div class="px-1">
+                        <a href="">
+                            <img src="/img/02-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <a href="" class="px-1">
+                            <img src="/img/03-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                        <a href="" class="px-1">
+                            <img src="/img/04-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="flex mt-3">
+                    <div class="flex">
+                        <a href="" class="px-1">
+                            <img src="/img/05-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/06-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="px-1">
+                        <a href="">
+                            <img src="/img/07-lo_top-bk-nov23k.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <a href="">
+                    <img src="/img/08-lo_top-bk-nov23k-desktop.webp" alt="">
+                </a>
+            </div>
+            <div class="mt-5">
+                <a href="">
+                    <img src="/img/19-lo_top-bk-nov23k-desktop.webp" alt="">
+                </a>
+            </div>
+            <div class="mt-5">
+                <a href="">
+                    <img src="/img/17-lo_top-bk-nov23k-desktop.webp" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center py-5">
+        <div class="w-5/6 rounded-full">
+            <div class="flex justify-between bg-red-600 py-3 px-5 items-center text-white rounded-t-3xl">
+                <div class="flex font-bold text-2xl items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shoe" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6h5.426a1 1 0 0 1 .863 .496l1.064 1.823a3 3 0 0 0 1.896 1.407l4.677 1.114a4 4 0 0 1 3.074 3.89v2.27a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1z" />
+                        <path d="M14 13l1 -2" />
+                        <path d="M8 18v-1a4 4 0 0 0 -4 -4h-1" />
+                        <path d="M10 12l1.5 -3" />
+                      </svg>
+                    <h2 class="ml-5">Calzado</h2>
+                </div>
+                <div>
+                    <a class="px-5 mx-3 bg-black py-2 rounded-full font-semibold" href="">Zapatillas Urbanas</a>
+                    <a class="px-5 mx-3 bg-black py-2 rounded-full font-semibold" href="">Zapatillas Sketchers</a>
+                    <a class="px-5 mx-3 bg-black py-2 rounded-full font-semibold" href="">Zapatos Casuales</a>
+                    <a class="px-5 mx-3 bg-black py-2 rounded-full font-semibold" href="">Botines Hombres</a>
+                    <a class="px-5 mx-3 bg-black py-2 rounded-full font-semibold" href=""> Zapatos de vestir</a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex justify-between">
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-01-b.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-02.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-03.webp" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-07.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <div class="flex justify-between">
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-01-b.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-02.webp" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-03.webp" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="/img/m-bk-nov23k-calzado-07.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
