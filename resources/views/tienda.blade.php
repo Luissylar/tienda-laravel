@@ -348,37 +348,37 @@
             <div class="flex">
                 <div class="w-1/2">
                     <div class="flex justify-between">
-                        <a href="">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-01-b.webp" alt="">
                         </a>
-                        <a href="">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-02.webp" alt="">
                         </a>
-                        <a href="">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-03.webp" alt="">
                         </a>
                     </div>
-                    <div>
-                        <a href="">
+                    <div class="w-full   px-3">
+                        <a href="" class="w-full">
                             <img src="/img/m-bk-nov23k-calzado-07.webp" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="w-1/2">
-                    <div class="flex justify-between">
-                        <a href="">
+                <div class="w-1/2 flex flex-col">
+                    <div class="flex justify-between w-full">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-01-b.webp" alt="">
                         </a>
-                        <a href="">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-02.webp" alt="">
                         </a>
-                        <a href="">
+                        <a href="" class="p-3">
                             <img src="/img/m-bk-nov23k-calzado-03.webp" alt="">
                         </a>
                     </div>
-                    <div>
-                        <a href="">
-                            <img src="/img/m-bk-nov23k-calzado-07.webp" alt="">
+                    <div class="w-full   px-3">
+                        <a href="" class="w-full">
+                            <img src="/img/m-bk-nov23k-calzado-07.webp" alt="" class="w-full">
                         </a>
                     </div>
                 </div>
